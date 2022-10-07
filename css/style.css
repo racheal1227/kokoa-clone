@@ -1,0 +1,14 @@
+@import 'reset.css';
+@import 'status-bar.css';
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcome-header {
+  margin-top: 90px 0;
+  text-align: center;
+}
+.welcome-header__title {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
