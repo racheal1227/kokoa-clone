@@ -1,0 +1,141 @@
+.chat-body {
+  background-color: var(--main-color);
+}
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: var(--point-color);
+}
+.chat-header__back {
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+}
+.chat-header__name {
+  font-size: 30px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  background-color: #aaaaaa;
+  color: #ffffff;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.day span {
+  margin-left: 5px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px;
+}
+.chat__msg {
+  display: flex;
+}
+.chat__img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+}
+.chat__text {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.chat__name {
+  font-size: 22px;
+  font-weight: 900;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+.chat__content-container {
+  display: flex;
+  align-items: flex-end;
+}
+.chat__content {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  background-color: #bfa9ee;
+  border: 1px solid var(--point-color);
+  padding: 10px 20px;
+  border-radius: 12px;
+  border-top-left-radius: 0;
+}
+.chat__time {
+  margin: 0 5px;
+  opacity: 0.8;
+}
+.--array-right {
+  margin-left: auto;
+}
+.--content-right {
+  border-radius: 12px;
+  border-top-right-radius: 0;
+}
+
+.keypad {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--point-color);
+  padding: 0 20px;
+}
+.keypad > i {
+  color: #eeeeee;
+}
+.keypad__column {
+  width: 580px;
+  height: 40px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 15px;
+}
+.keypad__column input {
+  width: 480px;
+  background-color: inherit;
+  border: none;
+}
+.keypad__column input:focus {
+  outline: none;
+}
+.keypad__btn i {
+  opacity: 0.65;
+}
+.keypad__btn i:nth-child(1) {
+  margin-right: 3px;
+}
+.keypad__send {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}

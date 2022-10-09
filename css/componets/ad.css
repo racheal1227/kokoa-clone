@@ -1,0 +1,21 @@
+.ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #eeeeee;
+  line-height: 18px;
+  padding: 20px 20px;
+  margin: 0 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.ad:visited {
+  color: #000000;
+}
+.ad__text:nth-child(1) {
+  font-size: 20px;
+}
+.ad__text:nth-child(2) {
+  font-size: 15px;
+}

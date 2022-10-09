@@ -1,14 +1,30 @@
+@import '../font/나눔손글씨\ 암스테르담.ttf';
 @import 'reset.css';
-@import 'status-bar.css';
-body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-.welcome-header {
-  margin-top: 90px 0;
-  text-align: center;
+/* Components */
+@import './componets/variables.css';
+@import './componets/no-mobile.css';
+@import './componets/status-bar.css';
+@import './componets/nav-bar.css';
+@import './componets/header.css';
+@import './componets/ad.css';
+
+/* Screens */
+@import './screens/index.css';
+@import './screens/friends.css';
+@import './screens/chats.css';
+@import './screens/chat.css';
+@import './screens/shop.css';
+@import './screens/more.css';
+@import './screens/setting.css';
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
 }
-.welcome-header__title {
-  margin-bottom: 50px;
-  font-size: 25px;
+body {
+  font-family: '나눔손글씨\ 암스테르담', 'Franklin Gothic Medium', 'Arial Narrow';
+  font-weight: 700;
+  margin: 35px 0 100px 0;
+  width: 700px;
 }

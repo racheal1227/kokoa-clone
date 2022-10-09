@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoguriTalk-Chat</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="chat-body">
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="status-bar__row">
+        <i class="fa-solid fa-plane"></i>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__row">
+        <span class="status-bar__text">18:43</span>
+      </div>
+      <div class="status-bar__row">
+        <span class="fa-stack fa-2xs">
+          <i class="fa-solid fa-lock fa-stack-1x"></i>
+          <i class="fa-solid fa-rotate-right fa-stack-2x"></i>
+        </span>
+        <span class="status-bar__text">80%</span>
+        <i class="fas fa-battery-three-quarters fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="chat-header">
+      <a href="chats.html" class="chat-header__back"><pre>< 10</pre></a>
+      <span class="chat-header__name">도구리</span>
+      <div class="header__btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- Main Contents -->
+    <div class="chat-container">
+      <div class="day">
+        <i class="fa-solid fa-calendar-days"></i>
+        <span>2022년 10월 10일 월요일</span>
+      </div>
+      <div class="chat">
+        <div class="chat__msg">
+          <img class="chat__img" src="./image/chat-1.png" />
+          <div class="chat__text">
+            <span class="chat__name">도구리</span>
+            <div class="chat__content-container">
+              <div class="chat__content"><span>커피 마시고싶다</span></div>
+              <span class="chat__time">오전 2:35</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__msg">
+          <img class="chat__img" src="./image/chat-1.png" />
+          <div class="chat__text">
+            <span class="chat__name">도구리</span>
+            <div class="chat__content-container">
+              <div class="chat__content"><span>맥주 마시고싶다</span></div>
+              <span class="chat__time">오전 2:36</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__msg">
+          <img class="chat__img" src="./image/chat-1.png" />
+          <div class="chat__text">
+            <span class="chat__name">도구리</span>
+            <div class="chat__content-container">
+              <div class="chat__content"><span>라면 먹고싶다</span></div>
+              <span class="chat__time">오전 2:36</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__msg">
+          <img class="chat__img" src="./image/chat-1.png" />
+          <div class="chat__text">
+            <span class="chat__name">도구리</span>
+            <div class="chat__content-container">
+              <div class="chat__content"><span>떡볶이도...</span></div>
+              <span class="chat__time">오전 2:36</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__content-container --array-right">
+          <span class="chat__time">오전 2:37</span>
+          <div class="chat__content --content-right"><span>그만해...</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="keypad">
+      <i class="fa-solid fa-plus fa-lg"></i>
+      <div class="keypad__column">
+        <input type="text" placeholder="메시지를 입력해주세요" />
+        <div class="keypad__btn">
+          <i class="fa-regular fa-face-smile fa-lg"></i>
+          <i class="fa-solid fa-hashtag fa-lg"></i>
+        </div>
+      </div>
+      <button class="keypad__send"><i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+
+    <!-- Media Query -->
+    <div class="no-mobile">
+      <img src="./image/no-mobile.png" class="no-mobile__img" />
+      <span class="no-mobile__text-1">화면이 너무 커요!</span>
+      <span class="no-mobile__text-2">가로 700px...</span>
+    </div>
+  </body>
+</html>

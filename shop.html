@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoguriTalk-Shop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="status-bar__row">
+        <i class="fa-solid fa-plane"></i>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__row">
+        <span class="status-bar__text">18:43</span>
+      </div>
+      <div class="status-bar__row">
+        <span class="fa-stack fa-2xs">
+          <i class="fa-solid fa-lock fa-stack-1x"></i>
+          <i class="fa-solid fa-rotate-right fa-stack-2x"></i>
+        </span>
+        <span class="status-bar__text">80%</span>
+        <i class="fas fa-battery-three-quarters fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <span class="header__title">쇼핑</span>
+      <div class="header__btn">
+        <i class="fa-solid fa-barcode fa-lg"></i>
+        <a href="./setting.html" class="header__setting"
+          ><i class="fa-solid fa-gear fa-lg"></i>
+          <div class="header__notice"></div>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Contents -->
+    <div class="shop">
+      <ul class="shop__menu">
+        <li class="shop__item">
+          <i class="fa-solid fa-gift fa-2x"></i>
+          <span>선물하기</span>
+        </li>
+        <li class="shop__item">
+          <i class="fa-solid fa-store fa-2x"></i>
+          <span>쇼핑하기</span>
+        </li>
+        <li class="shop__item">
+          <i class="fa-solid fa-qrcode fa-2x"></i>
+          <span>QR코드</span>
+        </li>
+        <li class="shop__item">
+          <i class="fa-solid fa-paw fa-2x"></i>
+          <span>프렌즈</span>
+        </li>
+      </ul>
+
+      <div class="shop-ad">
+        <a href="https://smartstore.naver.com/644">
+          <img
+            src="https://shop-phinf.pstatic.net/20220712_237/1657588379142LFRlj_JPEG/22.07_C4B3B8AFC5CDB6F3C0CCBCB1BDCCC6E4BEEE_B8B6C4C9C6C3_.jpg"
+            class="shop-ad__img"
+          />
+        </a>
+      </div>
+
+      <div class="my-shopping">
+        <div class="my-shopping__profile">
+          <img src="./image/profile-1.png" class="my-shopping__img" />
+          <span><b>도구리</b>님의 쇼핑 ></span>
+        </div>
+        <span>최근 주문 <b class="--color-blue">1</b></span>
+        <span>선물함 <b class="--color-blue">1</b></span>
+      </div>
+    </div>
+
+    <div class="shop-list">
+      <div class="shop-list__header">
+        <span class="shop-list__title">도구리 온라인스토어</span>
+        <pre class="shop-list__more">더 보기 ></pre>
+      </div>
+      <ul class="shop-list__item-list">
+        <li class="shop-list__item">
+          <img
+            src="https://shop-phinf.pstatic.net/20220119_31/1642571136813WVWxB_JPEG/43706916408875552_454091747.jpg?type=f296_296"
+            class="shop-list__img"
+          />
+          <span>[2차 재입고/옵션선택] 도구리 - 클립펜 (속마음 ver)</span>
+          <span>가격 <b class="--color-blue -font-bold">3,500</b>원</span>
+        </li>
+        <li class="shop-list__item">
+          <img
+            src="https://shop-phinf.pstatic.net/20220712_274/1657593887318FnKcS_JPEG/58729785990404799_1557597728.jpg?type=f296_296"
+            class="shop-list__img"
+          />
+          <span>[NEW/옵션선택] 도구리 - 타월 (퇴근 ver)</span>
+          <span>가격 <b class="--color-blue -font-bold">9,900</b>원</span>
+        </li>
+        <li class="shop-list__item">
+          <img
+            src="https://shop-phinf.pstatic.net/20220708_91/1657241709681wkxw7_JPEG/58377608385693622_1079819706.jpg?type=f296_296"
+            class="shop-list__img"
+          />
+          <span>[NEW] 도구리 - 티셔츠 (Run ver)_네이비 </span>
+          <span>가격 <b class="--color-blue -font-bold">32,000</b>원</span>
+        </li>
+        <li class="shop-list__item">
+          <img
+            src="https://shop-phinf.pstatic.net/20220711_126/1657523548487vhQKF_JPEG/58659382298227802_1997495582.jpg?type=f296_296"
+            class="shop-list__img"
+          />
+          <span>[NEW] 도구리 - 시온 유리컵 (열정 ver)</span>
+          <span>가격 <b class="--color-blue -font-bold">16,000</b>원</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__btn">
+          <a href="friends.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="shop.html"
+            ><img class="nav__link --nav-active" src="./image/nav-active.png"
+          /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Media Query -->
+    <div class="no-mobile">
+      <img src="./image/no-mobile.png" class="no-mobile__img" />
+      <span class="no-mobile__text-1">화면이 너무 커요!</span>
+      <span class="no-mobile__text-2">가로 700px...</span>
+    </div>
+  </body>
+</html>

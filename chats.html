@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoguriTalk-Chats</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="chats-body">
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="status-bar__row">
+        <i class="fa-solid fa-plane"></i>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__row">
+        <span class="status-bar__text">18:43</span>
+      </div>
+      <div class="status-bar__row">
+        <span class="fa-stack fa-2xs">
+          <i class="fa-solid fa-lock fa-stack-1x"></i>
+          <i class="fa-solid fa-rotate-right fa-stack-2x"></i>
+        </span>
+        <span class="status-bar__text">80%</span>
+        <i class="fas fa-battery-three-quarters fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <span class="header__title">채팅</span>
+      <div class="header__btn">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <i class="fa-regular fa-comment-dots fa-lg"></i>
+        <i class="fa-regular fa-comments fa-lg"></i>
+        <a href="./setting.html" class="header__setting"
+          ><i class="fa-solid fa-gear fa-lg"></i>
+          <div class="header__notice"></div>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Contents -->
+    <a href="https://grafolio.naver.com/doguri" class="ad" target="_blank">
+      <span class="ad__text">도구리 캐릭터 출처는 여기</span>
+      <span class="ad__text">Copyright Ⓒ All rights reserved by DOGURI.</span>
+    </a>
+
+    <div class="chats chats">
+      <a href="chat.html" class="chats__data">
+        <img class="chats__img" src="./image/chat-1.png" />
+        <div class="chats__text">
+          <span>도구리 1</span>
+          <span>커피 마시고싶다...</span>
+        </div>
+      </a>
+      <a href="#" class="chats__data">
+        <img class="chats__img" src="./image/chat-2.png" />
+        <div class="chats__text">
+          <span>도구리 2</span>
+          <span>맥주 마시고싶다...</span>
+        </div>
+      </a>
+      <a href="#" class="chats__data">
+        <img class="chats__img" src="./image/chat-3.png" />
+        <div class="chats__text">
+          <span>도구리 3</span>
+          <span>졸리다...</span>
+        </div>
+      </a>
+      <a href="#" class="chats__data">
+        <img class="chats__img" src="./image/chat-3.png" />
+        <div class="chats__text">
+          <span>도구리 4</span>
+          <span>졸리다...</span>
+        </div>
+      </a>
+      <a href="#" class="chats__data">
+        <img class="chats__img" src="./image/chat-3.png" />
+        <div class="chats__text">
+          <span>도구리 5</span>
+          <span>졸리다...</span>
+        </div>
+      </a>
+      <a href="#" class="chats__data">
+        <img class="chats__img" src="./image/chat-3.png" />
+        <div class="chats__text">
+          <span>도구리 6</span>
+          <span>졸리다...</span>
+        </div>
+      </a>
+      <a href="#" class="chats__data">
+        <img class="chats__img" src="./image/chat-3.png" />
+        <div class="chats__text">
+          <span>도구리 7</span>
+          <span>졸리다...</span>
+        </div>
+      </a>
+      <a href="#" class="chats__data">
+        <img class="chats__img" src="./image/chat-3.png" />
+        <div class="chats__text">
+          <span>도구리 8</span>
+          <span>졸리다...</span>
+        </div>
+      </a>
+      <a href="#" class="chats__data">
+        <img class="chats__img" src="./image/chat-3.png" />
+        <div class="chats__text">
+          <span>도구리 9</span>
+          <span>졸리다...</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__btn">
+          <a href="friends.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html"
+            ><img class="nav__link --nav-active" src="./image/nav-active.png"
+          /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="shop.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Media Query -->
+    <div class="no-mobile">
+      <img src="./image/no-mobile.png" class="no-mobile__img" />
+      <span class="no-mobile__text-1">화면이 너무 커요!</span>
+      <span class="no-mobile__text-2">가로 700px...</span>
+    </div>
+  </body>
+</html>

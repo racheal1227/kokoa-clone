@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
+    <title>Welcome to Doguri Clone</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -14,16 +14,17 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="index-body">
+    <!-- Status Bar -->
     <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__text">No service</span>
+      <div class="status-bar__row">
+        <i class="fa-solid fa-plane"></i>
         <i class="fa-solid fa-wifi"></i>
       </div>
-      <div class="status-bar__column">
+      <div class="status-bar__row">
         <span class="status-bar__text">18:43</span>
       </div>
-      <div class="status-bar__column">
+      <div class="status-bar__row">
         <span class="fa-stack fa-2xs">
           <i class="fa-solid fa-lock fa-stack-1x"></i>
           <i class="fa-solid fa-rotate-right fa-stack-2x"></i>
@@ -35,15 +36,22 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header__text">If you have a Kokoa Account, log in with your phone</p>
+      <h1 class="welcome-header__title">Welcome to Doguri Talk</h1>
+      <p class="welcome-header__text">전화번호로 로그인해주세요</p>
     </header>
 
-    <form class="login-form">
-      <input type="text" placeholder="Email of phone number" />
-      <input type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kakao Account or Password</a>
-    </form>
+    <div class="login-form">
+      <input type="text" placeholder="Email of phone number" class="login-form__email" />
+      <input type="password" placeholder="Password" class="login-form__password" />
+      <a href="friends.html" class="login-form__submit">로그인</a>
+      <a href="#" class="login-form__a">Find Kakao Account or Password</a>
+    </div>
+
+    <!-- Media Query -->
+    <div class="no-mobile">
+      <img src="./image/no-mobile.png" class="no-mobile__img" />
+      <span class="no-mobile__text-1">화면이 너무 커요!</span>
+      <span class="no-mobile__text-2">가로 700px...</span>
+    </div>
   </body>
 </html>

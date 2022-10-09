@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoguriTalk-More</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="status-bar__row">
+        <i class="fa-solid fa-plane"></i>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__row">
+        <span class="status-bar__text">18:43</span>
+      </div>
+      <div class="status-bar__row">
+        <span class="fa-stack fa-2xs">
+          <i class="fa-solid fa-lock fa-stack-1x"></i>
+          <i class="fa-solid fa-rotate-right fa-stack-2x"></i>
+        </span>
+        <span class="status-bar__text">80%</span>
+        <i class="fas fa-battery-three-quarters fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <span class="header__title">기타</span>
+      <div class="header__btn">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <i class="fa-solid fa-music fa-lg"></i>
+        <a href="./setting.html" class="header__setting"
+          ><i class="fa-solid fa-gear fa-lg"></i>
+          <div class="header__notice"></div>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Contents -->
+    <div class="more">
+      <div class="more__profile">
+        <img src="./image/profile-1.png" class="more__profile__img" />
+        <div class="more__profile__data">
+          <span class="more__profile__name">도구리</span>
+          <a href="https://www.instagram.com/doguri_official/" class="more__profile__address"
+            >https://www.instagram.com/doguri_official</a
+          >
+        </div>
+        <i class="fa-regular fa-message fa-2x"></i>
+      </div>
+
+      <ul class="more__list">
+        <li class="more__item">
+          <i class="fa-regular fa-calendar-check fa-2x"></i>
+          <span>달력</span>
+        </li>
+        <li class="more__item">
+          <i class="fa-solid fa-hard-drive fa-2x"></i>
+          <span>드라이브</span>
+        </li>
+        <li class="more__item">
+          <i class="fa-solid fa-face-smile-wink fa-2x"></i>
+          <span>이모티콘</span>
+        </li>
+        <li class="more__item">
+          <i class="fa-solid fa-brush fa-2x"></i>
+          <span>테마</span>
+        </li>
+        <li class="more__item">
+          <i class="fa-solid fa-key fa-2x"></i>
+          <span>계정</span>
+        </li>
+        <li class="more__item">
+          <i class="fa-solid fa-comments fa-2x"></i>
+          <span>오픈채팅</span>
+        </li>
+        <li class="more__item"></li>
+        <li class="more__item"></li>
+      </ul>
+
+      <div class="suggest-container">
+        <span class="suggest__title">추천</span>
+        <ul class="suggest">
+          <li class="suggest__item">
+            <img src="./image/chat-1.png" class="suggest__img" />
+            <span>커피</span>
+          </li>
+          <li class="suggest__item">
+            <img src="./image/chat-2.png" class="suggest__img" />
+            <span>맥주</span>
+          </li>
+          <li class="suggest__item">
+            <img src="./image/chat-4.png" class="suggest__img" />
+            <span>ㅠㅠ</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__btn">
+          <a href="friends.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="shop.html"><img class="nav__link" src="./image/nav-normal.png" /></a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html"
+            ><img class="nav__link --nav-active" src="./image/nav-active.png"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Media Query -->
+    <div class="no-mobile">
+      <img src="./image/no-mobile.png" class="no-mobile__img" />
+      <span class="no-mobile__text-1">화면이 너무 커요!</span>
+      <span class="no-mobile__text-2">가로 700px...</span>
+    </div>
+  </body>
+</html>
