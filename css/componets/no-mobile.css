@@ -16,13 +16,13 @@
   position: absolute;
 }
 .no-mobile__text-1 {
-  font-size: 32px;
+  font-size: 20px;
   position: relative;
   right: 75px;
   bottom: 100px;
 }
 .no-mobile__text-2 {
-  font-size: 28px;
+  font-size: 18px;
   position: relative;
   left: 60px;
   bottom: 140px;
