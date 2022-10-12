@@ -1,4 +1,8 @@
-@import '../font/나눔손글씨\ 암스테르담.ttf';
+@font-face {
+  font-family: '나눔손글씨\ 암스테르담.ttf';
+  src: url('../font/나눔손글씨\ 암스테르담.ttf');
+  font-weight: 700;
+}
 @import 'reset.css';
 
 /* Components */
@@ -23,7 +27,7 @@
 }
 body {
   font-family: '나눔손글씨\ 암스테르담', 'Franklin Gothic Medium', 'Arial Narrow';
-  font-weight: 700;
+  /* font-weight: 700; */
   margin: 35px 0 100px 0;
   width: 700px;
   max-width: 100%;
