@@ -75,6 +75,10 @@
   line-height: 20px;
   margin-bottom: 30px;
 }
+.shop-list__a {
+  text-decoration: none;
+  color: #000000;
+}
 .shop-list__img {
   width: 320px;
   height: 320px;
