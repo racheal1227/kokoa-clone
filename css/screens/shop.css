@@ -78,6 +78,7 @@
 .shop-list__a {
   text-decoration: none;
   color: #000000;
+  cursor: pointer;
 }
 .shop-list__img {
   width: 320px;
