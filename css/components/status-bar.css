@@ -8,6 +8,7 @@
   align-items: center;
   padding: 5px 3px;
   background-color: #eeeeee;
+  z-index: 99;
 }
 .status-bar__row {
   width: 33%;

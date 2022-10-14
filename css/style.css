@@ -20,6 +20,8 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'NanumAmSeuTeReuDam', 'Franklin Gothic Medium', 'Arial Narrow';
+  font-weight: 700;
 }
 body {
   font-family: 'NanumAmSeuTeReuDam', 'Franklin Gothic Medium', 'Arial Narrow';
@@ -27,4 +29,5 @@ body {
   margin: 35px 0 100px 0;
   width: 700px;
   max-width: 100%;
+  min-width: 400px;
 }

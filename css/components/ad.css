@@ -10,6 +10,9 @@
   text-decoration: none;
   margin-bottom: 20px;
 }
+.ad:hover {
+  box-shadow: 0 0 5px 5px var(--point-color);
+}
 .ad:visited {
   color: #000000;
 }

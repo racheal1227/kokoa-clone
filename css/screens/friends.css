@@ -92,7 +92,7 @@
   background-color: #dac1fa;
   position: absolute;
   top: 0;
-  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation: hideSplashScreen 1.5s ease-in-out forwards;
 }
 .loading__img {
   width: 300px;
