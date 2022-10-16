@@ -122,10 +122,13 @@
   width: 480px;
   background-color: inherit;
   border: none;
-}
-.keypad__column input:focus {
   outline: none;
+  font-size: 18px;
 }
+.keypad__column input::placeholder {
+  font-size: 18px;
+}
+
 .keypad__btn i {
   opacity: 0.65;
 }

@@ -1,13 +1,13 @@
-@import '../font/나눔손글씨\ 암스테르담.ttf';
+@import url('https://hangeul.pstatic.net/hangeul_static/css/NanumAmSeuTeReuDam.css');
 @import 'reset.css';
 
 /* Components */
-@import './componets/variables.css';
-@import './componets/no-mobile.css';
-@import './componets/status-bar.css';
-@import './componets/nav-bar.css';
-@import './componets/header.css';
-@import './componets/ad.css';
+@import './components/variables.css';
+@import './components/no-mobile.css';
+@import './components/status-bar.css';
+@import './components/nav-bar.css';
+@import './components/header.css';
+@import './components/ad.css';
 
 /* Screens */
 @import './screens/index.css';
@@ -20,11 +20,14 @@
 
 * {
   box-sizing: border-box;
-  max-width: 100%;
+  font-family: 'NanumAmSeuTeReuDam', 'Franklin Gothic Medium', 'Arial Narrow';
+  font-weight: 700;
 }
 body {
-  font-family: '나눔손글씨\ 암스테르담', 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: 'NanumAmSeuTeReuDam', 'Franklin Gothic Medium', 'Arial Narrow';
   font-weight: 700;
   margin: 35px 0 100px 0;
   width: 700px;
+  max-width: 100%;
+  min-width: 400px;
 }
